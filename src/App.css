@@ -1,6 +1,5 @@
 .App {
   height: 92vh;
-  margin: 1rem;
   text-align: center;
   /* border-width: 1px;
   border-style: solid;
@@ -8,13 +7,13 @@
   border-image-source: linear-gradient(to bottom, #000000, #ffffff); */
 }
 
-html {
+/* html {
   background: url(./jumbotron.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 h1 {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -65,26 +64,10 @@ a {
   height: 92vh;
   margin: 1rem;
 }
-/* .transparent {
-  height: 90vh;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, .10);
-} */
 
-  .transparent {
-  border-color: red;
-  animation-name: flash_border;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: flash_border;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-name: flash_border;
-  -moz-animation-duration: 2s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+.transparent {
+  height: 90vh;
+  backdrop-filter: blur(10px); 
 }
 
 .opaq {

@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
         <Nav></Nav>
-        <div className='border'>
+        <div>
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />

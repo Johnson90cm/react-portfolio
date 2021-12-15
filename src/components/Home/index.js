@@ -17,26 +17,23 @@ function Home() {
     });
 
     return (
-        <div className="full-page flex-row center vertical-center">
-
-            <div className="selfie-container">
-                
-            </div>
-
-            <div className="trails-main flex-row space-between" onClick={() => set(state => !state)}>
-                <div>
-                    {trail.map(({ x, height, ...rest }, index) => (
-                        <a.div
-                            key={greeting[index]}
-                            className="trails-text"
-                            style={{
-                                ...rest,
-                                transform: x.interpolate(x => `translate3d(0,${x}px,0)`)
-                            }}
-                        >
-                            <a.div style={{ height }}>{greeting[index]}</a.div>
-                        </a.div>
-                    ))}
+        <div>
+            <div className="full-page flex-row center vertical-center">
+                <div className="trails-main flex-row space-between" onClick={() => set(state => !state)}>
+                    <div>
+                        {trail.map(({ x, height, ...rest }, index) => (
+                            <a.div
+                                key={greeting[index]}
+                                className="trails-text"
+                                style={{
+                                    ...rest,
+                                    transform: x.interpolate(x => `translate3d(0,${x}px,0)`)
+                                }}
+                            >
+                                <a.div style={{ height }}>{greeting[index]}</a.div>
+                            </a.div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
