@@ -1,28 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
 // import { AnimateSharedLayout } from "framer-motion"
 
 import "./mysass.scss"
 
-function Project() {
+function Project(props) {
 
     return (
-
         <div class="card">
-            <div class="title">Flix-Fix</div>
+            <div class="title">{props.name}</div>
 
             <div class="icon">
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-react-original"></i>
-                <i class="devicon-javascript-plain"></i>            </div>
+                <i class={props.technologies1}></i>
+                <i class={props.technologies2}></i>
+                <i class={props.technologies3}></i>
+                <i class={props.technologies4}></i>
+                <i class={props.technologies5}></i>
+            </div>
+
             <div class="features">
                 <ul>
-                    <li>A place to review movies with your friends!</li>
+                    <li>{props.description}</li>
                 </ul>
             </div>
 
             <a href="#" class="btn">View Project</a>
         </div>
-
     )
 }
 
