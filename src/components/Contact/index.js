@@ -13,7 +13,8 @@ function Contact() {
                         <p>Full Stack Web Development</p>
                         <div class="font-a-icons">
                             <div class="icon-group">
-                                <span class="bold"> ------------------------------------- </span><span class="contact"></span>
+                                
+                                <span class="bold"> </span><span class="contact"></span>
                                 <div class="icon-group">
                                     <span class="bold">C: </span><a class="contact" target="_top">(801)584-9619</a>
                                 </div>
