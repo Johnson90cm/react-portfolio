@@ -3,8 +3,14 @@ import React from "react";
 function About() {
 
     return (
-        <div className="border transparent">
-            
+        <div>
+            <img src ="">
+
+            </img>
+            <p>
+                Hey there, thanks for stopping by my portfolio
+            </p>
+
         </div>
     )
 }

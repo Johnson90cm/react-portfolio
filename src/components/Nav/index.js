@@ -1,15 +1,17 @@
 import React from "react";
 import "./style.css"
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
 
     return (
+
         <nav>
             <ul className="flex-row space-around bold">
-                {/* <li><a href="/" ><div className="btn from-top">+ home +</div></a></li> */}
-                <li><a href="/about">+ about +</a></li>
-                <li><a href="/work">\ my work \</a></li>
-                <li><a href="/contact">+ contact +</a></li>
+                {/* <li><NavLink exact activeClassName="active" to='/'>+ about +</NavLink></li> */}
+                <li><NavLink exact activeClassName="active" to='/about'>+ about +</NavLink></li>
+                <li><NavLink exact activeClassName="active" to='/work'>\ work \</NavLink></li>
+                <li><NavLink exact activeClassName="active" to='/contact'>+ contact +</NavLink></li>
             </ul>
         </nav>
     )

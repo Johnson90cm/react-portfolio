@@ -14,7 +14,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'Note Taker',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -22,7 +22,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'e-commerce backend',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -30,7 +30,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'Readme-Generator',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -38,7 +38,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'weather-dashboard',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -46,7 +46,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'deep-thoughts',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -54,7 +54,7 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'code-quiz',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -62,7 +62,95 @@ function Gallery() {
             description: 'A place to review movies with your friends!',
         },
         {
-            name: 'Flix-Fix',
+            name: 'MVC-tech-blog',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'food-festival',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'password-generator',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'just-tech-news',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'team-profile-generator',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'workday-scheduler',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'pizza-hunt',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'u-develop-it',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'jest-another-rpg',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'taskmaster-pro',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'budget-tracker',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+        },
+        {
+            name: 'portfolio-generator',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',
             html5: 'devicon-html5-plain',
@@ -74,6 +162,7 @@ function Gallery() {
     const reactProjects = [
         {
             name: 'React Portfolio',
+            npm: 'devicon-npm-original-wordmark',
             html5: 'devicon-html5-plain',
             react: 'devicon-react-original',
             javascript: 'devicon-javascript-plain',
@@ -90,7 +179,7 @@ function Gallery() {
 
             {reactProjects.map(reactProject => {
                 return (
-                    <Project name={reactProject.name} description={reactProject.description} technologies1={reactProject.react} technologies2={reactProject.javascript} technologies3={reactProject.html5} />
+                    <Project name={reactProject.name} description={reactProject.description} technologies1={reactProject.react} technologies2={reactProject.javascript} technologies3={reactProject.html5} technologies5={reactProject.npm} />
                 )
             })}
 
