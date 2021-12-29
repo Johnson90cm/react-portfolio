@@ -36,6 +36,7 @@ body {
 
 .trails-main {
     margin: 5rem;
+    margin-top: 10rem;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -64,4 +65,12 @@ body {
 
 .trails-text > div {
     overflow: hidden;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+ 
+    .trails-text {
+     width: 150%;
+     font-size:3em;
+ }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTrail, animated as a } from "react-spring";
 import "./styles.css";
 
-const greeting = ["Hey there, my name is", " Colton and Thanks For", "Stopping By My Portfolio", "vitae et leo duis ut", "pellentesque habitant morbi tristique senectus", "mauris nunc congue nisi vitae", "euismod nisi porta lorem mollis", "luctus accumsan tortor posuere"];
+const greeting = ["Have No", " Fear Of", "Perfection", "You Will", "Never Reach It", " ", "- Salvador Dali", ];
 const config = { mass: 12, tension: 1500, friction: 300 };
 
 function Home() {
