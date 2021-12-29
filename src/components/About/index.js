@@ -12,7 +12,7 @@ function About() {
             </div>
 
             <div className="div-item center">
-                <p className="center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna. Odio facilisis mauris sit amet massa vitae. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Eget arcu dictum varius duis at consectetur. Senectus et netus et malesuada fames ac. Eu sem integer vitae justo. Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. A condimentum vitae sapien pellentesque habitant.</p>
+                <p className="center"> Hey there! My name is Colton. I am a recent graduate of the University of Utah's full-stack web development bootcamp. I enjoy creating front end experiences that are both awesome to look at as well as enjoyable to interact with. I am currently looking for web development oppertunities to kickstart my career in the field. If you are looking to get some work done see my contact page. Cheers!</p>
             </div>
         </div>
     )
