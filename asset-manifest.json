@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.59536021.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.caab8d2b.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.caab8d2b.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.abac3d6d.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.abac3d6d.js.map",
-    "static/js/2.7a3ae712.chunk.js": "/react-portfolio/static/js/2.7a3ae712.chunk.js",
-    "static/js/2.7a3ae712.chunk.js.map": "/react-portfolio/static/js/2.7a3ae712.chunk.js.map",
-    "static/js/3.613342a9.chunk.js": "/react-portfolio/static/js/3.613342a9.chunk.js",
-    "static/js/3.613342a9.chunk.js.map": "/react-portfolio/static/js/3.613342a9.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.59536021.chunk.css.map": "/react-portfolio/static/css/main.59536021.chunk.css.map",
-    "static/js/2.7a3ae712.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7a3ae712.chunk.js.LICENSE.txt",
-    "static/media/mysass.scss": "/react-portfolio/static/media/front.02ced52d.jpg",
-    "static/media/placeholder.0e4e035f.jpg": "/react-portfolio/static/media/placeholder.0e4e035f.jpg",
-    "static/media/resume.334e817b.pdf": "/react-portfolio/static/media/resume.334e817b.pdf"
+    "main.css": "/coltons-react-portfolio/static/css/main.5d727a4b.chunk.css",
+    "main.js": "/coltons-react-portfolio/static/js/main.caab8d2b.chunk.js",
+    "main.js.map": "/coltons-react-portfolio/static/js/main.caab8d2b.chunk.js.map",
+    "runtime-main.js": "/coltons-react-portfolio/static/js/runtime-main.68ebf93c.js",
+    "runtime-main.js.map": "/coltons-react-portfolio/static/js/runtime-main.68ebf93c.js.map",
+    "static/js/2.7a3ae712.chunk.js": "/coltons-react-portfolio/static/js/2.7a3ae712.chunk.js",
+    "static/js/2.7a3ae712.chunk.js.map": "/coltons-react-portfolio/static/js/2.7a3ae712.chunk.js.map",
+    "static/js/3.613342a9.chunk.js": "/coltons-react-portfolio/static/js/3.613342a9.chunk.js",
+    "static/js/3.613342a9.chunk.js.map": "/coltons-react-portfolio/static/js/3.613342a9.chunk.js.map",
+    "index.html": "/coltons-react-portfolio/index.html",
+    "static/css/main.5d727a4b.chunk.css.map": "/coltons-react-portfolio/static/css/main.5d727a4b.chunk.css.map",
+    "static/js/2.7a3ae712.chunk.js.LICENSE.txt": "/coltons-react-portfolio/static/js/2.7a3ae712.chunk.js.LICENSE.txt",
+    "static/media/mysass.scss": "/coltons-react-portfolio/static/media/front.02ced52d.jpg",
+    "static/media/placeholder.0e4e035f.jpg": "/coltons-react-portfolio/static/media/placeholder.0e4e035f.jpg",
+    "static/media/resume.334e817b.pdf": "/coltons-react-portfolio/static/media/resume.334e817b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.abac3d6d.js",
+    "static/js/runtime-main.68ebf93c.js",
     "static/js/2.7a3ae712.chunk.js",
-    "static/css/main.59536021.chunk.css",
+    "static/css/main.5d727a4b.chunk.css",
     "static/js/main.caab8d2b.chunk.js"
   ]
 }
