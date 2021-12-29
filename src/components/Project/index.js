@@ -23,7 +23,7 @@ function Project(props) {
                 </ul>
             </div>
 
-            <a href="#" class="btn">View Project</a>
+            <a href={props.link} class="btn">View Project</a>
         </div>
     )
 }
