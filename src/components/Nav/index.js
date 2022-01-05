@@ -10,7 +10,7 @@ function Nav() {
             <ul className="flex-row space-around bold">
                 {/* <li><NavLink exact activeClassName="active" to='/'>+ about +</NavLink></li> */}
                 <li><NavLink exact activeClassName="active" to='/about'>+ about +</NavLink></li>
-                <li><NavLink exact activeClassName="active" to='/'>\ work \</NavLink></li>
+                <li><NavLink exact activeClassName="active" to='/work'>\ work \</NavLink></li>
                 <li><NavLink exact activeClassName="active" to='/contact'>+ contact +</NavLink></li>
             </ul>
         </nav>
