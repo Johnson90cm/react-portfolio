@@ -1,8 +1,8 @@
 {
-  "homepage": "http://johnson90cm.github.io/coltons-react-portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://johnson90cm.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -16,6 +16,7 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "react-spring": "^8.0.27",
+    "save-dev": "0.0.1-security",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
