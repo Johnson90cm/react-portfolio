@@ -33,6 +33,7 @@ h3 {
 .front {
     background-image: url(./assets/back.jpg);
     background-size: cover;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
 }
 
 /* /end */
@@ -42,6 +43,8 @@ h3 {
 .back {
     background-image: url(./assets/front.jpg);
     background-size: cover;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
 
     h1,
     p,
