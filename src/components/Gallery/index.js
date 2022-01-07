@@ -6,6 +6,15 @@ function Gallery() {
 
     const projects = [
         {
+            name: 'TOMODACHI',
+            npm: 'devicon-npm-original-wordmark',
+            nodeJS: 'devicon-nodejs-plain',
+            html5: 'devicon-html5-plain',
+            javascript: 'devicon-javascript-plain',
+            description: 'A place to review movies with your friends!',
+            link: 'https://tomodachi-sadboitay.herokuapp.com/'
+        },
+        {
             name: 'Flix-Fix',
             npm: 'devicon-npm-original-wordmark',
             nodeJS: 'devicon-nodejs-plain',

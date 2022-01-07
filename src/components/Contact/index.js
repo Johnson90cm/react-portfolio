@@ -7,7 +7,7 @@ import { Document } from 'react-pdf'
 function Contact() {
 
     return (
-        <div class="transparent border">
+        <div>
             <div class="flip-container centered">
                 <div class="flipper">
                     <div class="front"></div>
